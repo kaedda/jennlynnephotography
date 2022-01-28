@@ -1,5 +1,15 @@
-.header {
-    background-image: url(/img/william-thomas.jpg);
-    width: 400px;
-    height: 400px;
+.showcase {
+    background: linear-gradient(rgba(89, 187, 179, 0.8), rgba(187, 89, 97, 0.8)), url(img/jd-gipson.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 3%;
+}
+
+.showcase h1 {
+    margin-top: 2em;
+}
+.showcase h1, h2 {
+    font-weight: 700;
 }
